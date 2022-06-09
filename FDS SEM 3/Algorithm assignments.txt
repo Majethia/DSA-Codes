@@ -1,0 +1,86 @@
+Area of Circle
+
+1.Start
+2.Import math
+3.Take radius input from user as r
+4.Use math module to get pi and multiply by r square
+5.Return the result thats area
+6.End
+
+
+Area of Triangle
+
+1.Start
+2.Take input base b and height h
+3.Multiply 1/2 * b * h
+4.Return the result thats area
+5.End
+
+
+Reverse of string
+
+1.Start
+2.Use for loop to iterate over the string
+3.declare an empty string as temp variable
+4.inside loop temp = i + temp
+5.Return temp as the reverse string
+6.End
+
+
+Check if string is palindrome
+
+1.Start
+2.Use for loop to iterate over the range of len of string
+3.if for all iterations str[i] is equal to str[-i]
+4.then the string is a palindrome
+5.else its not
+6.End
+
+
+Find largest of 3 numbers
+
+1.Start
+2.take input of three numbers to be compared
+3.Check if num1 is greater than num2
+4.If true, then check if num1 is greater than num3
+	1.If true, then print ‘num1’ as the greatest number.
+	2.If false, then print ‘num3’ as the greatest number.
+5.If false, then check if num2 is greater than num3
+	1.If true, then print ‘num2’ as the greatest number.
+	2.If false, then print ‘num3’ as the greatest number.
+6.End
+
+
+Find roots of quadratic equation
+
+1.Start
+2.Input the value of a, b, c.
+3.Calculate k = b*b - 4*a*c.
+4.If (d < 0) Display "Roots are Imaginary, 
+5.calculater1 = (-b + root(k))/ 2a and r2 =(b + root(k))/ 2a. 
+6.else if (d = 0) Display "Roots are Equal" and calculate r1 = r2 = (-b / 2*a)
+7.Print r1 and r2.
+8.End
+
+
+Algorithm to check prime number
+
+1.Start
+2.Input number as A
+3. Using for loop, divide the variable A with (root A to 2)
+4.If A is divisible by any value (Root A to 2) it is not prime
+5.Else it is prime
+6.End
+
+
+Algorithm to find fibonacchi series
+
+1.Start
+2.Take input n from user
+3.Set A = 0, B = 0
+4.DISPLAY A, B
+5.C = A + B
+6.DISPLAY C
+7.Set A = B, B = C
+8.Repeat from 4 - 6, for n times
+9.End

@@ -1,0 +1,37 @@
+Algoritm to find largest number in array
+
+1.Start
+2.Take input array from user
+3.Make a temperory variable and set it as first element of the array
+4.Iterate through the array and if any element is greater than the temperory variable, update its value with the greater value
+5.Return the value of temp variable as the result
+6.End
+
+
+Algorithm to Calculate Average of Numbers stored in Array.
+
+1.Start
+2.Take input array from user
+3.Make a variable sum and set it to zero
+4.Iterate over the array and add all the values to sum
+5.Return sum as the result
+6.End
+
+
+Algorithm to find the element with highest frequency in a array.
+
+1.Start
+2.Make 2 variables, result as first element of list and freq as its frequency (find frequecny using the algorithm after this)
+3.Iterate through the array and find every elements frequenct if its larger than the one in freq update the value of freq and result
+4.Return the value of result
+5.End
+
+
+Algorithm to find a elements frequency in a array.
+
+1.Start
+2.Take input array and the element whose frequency is to be found out.
+3.Make variable count and set as 0
+4.Iterate over the array and if the value is equal to what was inputed, increase count by 1
+5.Return the value of count
+6.End

@@ -1,0 +1,21 @@
+class Stack{
+    public:
+        char l[200], top;
+        int len;
+
+    Stack(){
+        len = 0;
+    }
+
+    void push(char c){
+        l[len] = c;
+        len += 1;
+        top = c;
+    }
+
+    void pop(){
+        len -= 2;
+        top = l[len];
+        len += 1;
+    }
+};
